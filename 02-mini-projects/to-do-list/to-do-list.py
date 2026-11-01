@@ -1,6 +1,8 @@
 tasks=[]
 import json
+from pathlib import Path
 
+DATA_FILE = Path(__file__).resolve().parent / "tasks.json"
 def save_tasks():
        with open("tasks.json", "w") as f:
           json.dump(tasks, f)
@@ -8,7 +10,7 @@ def save_tasks():
 def load_tasks():
        global tasks
        try:
-           with open("tasks.json", "r") as f:
+           with open(DATA_FILE, "r") as f:
               tasks = json.load(f)
        except FileNotFoundError:
           tasks = []

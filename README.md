@@ -1,32 +1,63 @@
-Hi, I'm Sakshi 👋
+# Python Mini Projects 🐍
 
-B.Tech Cyber Security student @ GH Raisoni College of Engineering and Management (CGPA 8.6, Class of 2028) | Learning AI/ML @ IIT Patna | Building projects to learn, not just to submit
+A collection of Python projects built while learning programming, problem-solving, data handling, and practical application development.
 
-🎯 Currently looking for internships in Product Support / Technical Support / Operations / Analyst roles
+I believe in learning by building, experimenting, debugging, and improving through practical projects.
 
-📫 Reach me: sakshi.redekar.cyb@ghrcemp.raisoni.net
+## Projects
 
-🌱 Foundations
+### 1. Expense Tracker
 
-Projects where I learned core syntax, logic, and language fundamentals.
+A command-line application to record expenses, calculate total spending, and generate category-wise summaries.
 
+- Python
+- JSON persistence
+- Data handling and exception handling
 
-C++ Mini Quiz Game — A console-based quiz game built to practice control flow, functions, and basic OOP concepts in C++.
+[View Project](02-mini-projects/expense-tracker/)
 
+### 2. To-Do List App
 
-⚙️ Applied Projects
+A command-line task manager that allows users to add, view, and remove tasks.
 
-Projects that go beyond syntax — handling real data, errors, and persistence.
+- Python
+- JSON persistence
+- Input validation and exception handling
 
+[View Project](02-mini-projects/to-do-list/)
 
-CLI To-Do List App (to-do-list.py)— Python command-line to-do list with JSON persistence and full error handling (invalid input, missing files, corrupted data).
-Expense Tracker (in progress) — Python CLI expense tracker using dictionaries, float() input validation, datetime for timestamps, and CSV export.
-Interactive Study Apps (CN / DBMS / OOP) — Three self-contained HTML apps built for exam prep, each with syntax highlighting, real-world analogies, and accordion-style topic breakdowns. Built to learn concepts from scratch, not just revise.
+## Repository Structure
 
+```text
+Python-mini-projects/
+│
+├── README.md
+│
+└── 02-mini-projects/
+    ├── expense-tracker/
+    │   ├── Expense_tracker.py
+    │   ├── expenses.json
+    │   └── README.md
+    │
+    └── to-do-list/
+        ├── to-do-list.py
+        ├── tasks.json
+        └── README.md
+```
 
-🚧 In Progress / Upcoming
+## Running the Projects
 
-What I'm exploring next.
+1. Install Python 3.
+2. Clone this repository.
+3. Open the project directory in your terminal.
+4. Run the desired Python file using the instructions in its README.
 
-Deepening Python fundamentals via structured practice
-AI/ML coursework application projects
+## Learning Goals
+
+- Strengthen Python fundamentals.
+- Improve problem-solving skills.
+- Understand file handling and data persistence.
+- Build practical applications.
+- Learn Git and GitHub through real projects.
+
+More projects and improvements coming soon!
