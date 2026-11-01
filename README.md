@@ -14,7 +14,7 @@ A command-line application to record expenses, calculate total spending, and gen
 - JSON persistence
 - Data handling and exception handling
 
-[View Project](02-mini-projects/expense-tracker/)
+[View Project](mini-projects/expense-tracker/)
 
 ### 2. To-Do List App
 
@@ -24,7 +24,7 @@ A command-line task manager that allows users to add, view, and remove tasks.
 - JSON persistence
 - Input validation and exception handling
 
-[View Project](02-mini-projects/to-do-list/)
+[View Project](mini-projects/to-do-list/)
 
 ## Repository Structure
 
@@ -33,7 +33,7 @@ Python-mini-projects/
 │
 ├── README.md
 │
-└── 02-mini-projects/
+└── mini-projects/
     ├── expense-tracker/
     │   ├── Expense_tracker.py
     │   ├── expenses.json
